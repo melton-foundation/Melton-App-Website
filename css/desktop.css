@@ -1,125 +1,278 @@
-   
-        .navbar-toggler{
-            width: 50px;
-            height: 34px;
-            background-color: white;
-            border:none;
-        }
-        .navbar-toggler .line{
-            width: 100%;
-            float: left;
-            height: 1.85px;
-            background-color: grey;
-            margin-bottom: 5px;
 
-            }
-        .has-line-under::after, .line-under::after
-        {
-          content: '';
-          width: 56px;
-          height: 3px;
-          background-color: #00558a;
-          transform: skew(-45deg, 0deg);
-          margin-top: 16px;
-          margin-bottom: 17px;
-          margin-left: 2px;
-          display: block;
+.navbar-toggler {
+    width: 50px;
+    height: 34px;
+    background-color: white;
+    border: none;
+}
 
-        }
-        .has-line-under,.line-under
-        {
-          color: #363a41;
-        }
-        .istext{
-          color: #2f4d83;
-        }
-        .has-line-under:hover, .website:hover
-        {
-          color:#eaab21;
-        }
-        .line-under:hover, .istext:hover
-        {
-          color:#007335;
-        }
-        .button {
-          background-color: #B20A26;
-          border: none;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          cursor: pointer;
-          opacity: 1.0;
-        }
-        .button:hover{
-          opacity: 0.7;
-        }
-        .sel:hover, .sel1:hover{
-          background-color: #eaab21;
-        }
-        p{
-          font-size: 20px;
-        }
-        .vid
-        {
-          height: 200px;
-          width: 300px;
-        }
-        @media (min-width: 408px)
-        {
-            .img-responsive
-            {
-                width: 280px;
-                height:70px;
-            }
-            .col1{
-              margin-left:-2vw;
-            }
-            .sel:hover{
-          background-color: #eaab21;
-        }
-        .vid
-        {
-          height: 280px;
-          width: 380px;
-        }
-        }
-        @media (min-width: 670px)
-        {
-            .img-responsive
-            {
-                width: 320px;
-                height:80px;
-            }
-            .col1{
-            margin-left: -1vw;
-          }
-            .row-full
-            {
-              display: inline-flex;
-            }
-            .sel:hover{
-          background-color: #eaab21;
-          }
-          .vid
-          {
-            height: 380px;
-            width: 500px;
-          }
-        }
-        .sel:hover{
-          background-color: #eaab21;
-        }
-        body, header{
-            max-width: 100vw;
-            font-family: sans-serif;
-        }
-        .container-fluid{
-            max-width: 100vw;
-        }
-        h5{
-          padding-top: 50px;
-        }
+.navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 1.85px;
+    background-color: grey;
+    margin-bottom: 5px;
+
+}
+
+.has-line-under::after, .line-under::after {
+    content: '';
+    width: 56px;
+    height: 3px;
+    background-color: #00558a;
+    transform: skew(-45deg, 0deg);
+    margin-top: 16px;
+    margin-bottom: 17px;
+    margin-left: 2px;
+    display: block;
+
+}
+
+.has-line-under, .line-under {
+    color: #363a41;
+}
+
+.istext {
+    color: #2f4d83;
+}
+
+.has-line-under:hover, .website:hover {
+    color: #eaab21;
+}
+
+.line-under:hover, .istext:hover {
+    color: #007335;
+}
+
+.button {
+    background-color: #B20A26;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.sel:hover, .sel1:hover {
+    background-color: #eaab21;
+}
+
+p {
+    font-size: 20px;
+}
+
+.vid {
+    height: 200px;
+    width: 300px;
+}
+
+@media (min-width: 408px) {
+    .img-responsive {
+        width: 280px;
+        height: 70px;
+    }
+
+    .col1 {
+        margin-left: -2vw;
+    }
+
+    .sel:hover {
+        background-color: #eaab21;
+    }
+
+    .vid {
+        height: 280px;
+        width: 380px;
+    }
+}
+
+@media (min-width: 670px) {
+    .img-responsive {
+        width: 320px;
+        height: 80px;
+    }
+
+    .col1 {
+        margin-left: -1vw;
+    }
+
+    .row-full {
+        display: inline-flex;
+    }
+
+    .sel:hover {
+        background-color: #eaab21;
+    }
+
+    .vid {
+        height: 380px;
+        width: 500px;
+    }
+}
+
+.sel:hover {
+    background-color: #eaab21;
+}
+
+body, header {
+    max-width: 100vw;
+    font-family: sans-serif;
+}
+
+.container-fluid {
+    max-width: 100vw;
+}
+
+h5 {
+    padding-top: 50px;
+}
+.mobile-icons{
+    padding-left: 40px;
+}
+.mobile-icons img{
+    max-width: 100%;
+    height: auto;
+}
+.flex-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.store-links-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f3f3f3;
+    padding: 25px 0 10px 0;
+    width: 98vw;
+    margin: 0 auto;
+}
+.team-container{
+    justify-content: center;
+}
+.developer-name-link{
+    font-size: 30px;
+    font-weight: bold;
+}
+.developer-container{
+    width: 250px;
+    text-align: center;
+    margin: 25px;
+}
+.developer-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.app-store{
+    text-align: center;
+    padding: 20px;
+}
+.external-link-icon{
+    width: 20px;
+    margin-bottom: 5px;
+}
+.apple-store a, .apple-store-svg{
+    width: 100%;
+}
+.github-link{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}
+.google-store a, .google-store-img{
+    width: 100%;
+}
+.store-links-text{
+    padding: 20px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .apple-store, .google-store{
+        width: 100%;
+    }
+    .google-store, .apple-store{
+        padding: 10px;
+    }
+    .apple-store-svg{
+        padding: 0 27px;
+    }
+    .store-links-text{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .mf-logo{
+        width:95vw;
+    }
+}
+@media only screen and (min-width: 670px) {
+    .mf-logo{
+        width:50vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .apple-store, .google-store {
+        width: 50%;
+    }
+
+    .apple-store-svg {
+        width: 100%;
+    }
+
+    .apple-store-svg {
+        padding: 12px 20px;
+    }
+
+    .google-store, .apple-store {
+        padding: 0;
+    }
+    .store-links-text{
+        font-size: 25px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .apple-store-svg{
+        width: 99%;
+    }
+    .apple-store-svg{
+        padding: 12px 20px;
+    }
+    .google-store, .apple-store{
+        padding: 20px;
+    }
+    .store-links-text{
+        font-size: 30px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .apple-store-svg{
+        width: 90%;
+    }
+    .apple-store-svg{
+        padding: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .apple-store-svg{
+        width:87%;
+    }
+    .apple-store-svg{
+        padding:29px 20px;
+    }
+}
