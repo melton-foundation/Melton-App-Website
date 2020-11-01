@@ -152,18 +152,42 @@ h5 {
     flex-wrap: wrap;
     background-color: #f3f3f3;
     padding: 25px 0 10px 0;
-    width: 100vw;
+    width: 98vw;
     margin: 0 auto;
+}
+.team-container{
+    justify-content: center;
+}
+.developer-name-link{
+    font-size: 30px;
+    font-weight: bold;
+}
+.developer-container{
+    width: 250px;
+    text-align: center;
+    margin: 25px;
+}
+.developer-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 .app-store{
     text-align: center;
     padding: 20px;
-    /*height: 161px;*/
+}
+.external-link-icon{
+    width: 20px;
+    margin-bottom: 5px;
 }
 .apple-store a, .apple-store-svg{
     width: 100%;
 }
-
+.github-link{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}
 .google-store a, .google-store-img{
     width: 100%;
 }
