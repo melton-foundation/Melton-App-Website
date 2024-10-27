@@ -265,6 +265,10 @@ h5 {
     .apple-store-svg{
         padding: 20px;
     }
+    .vid {
+        height: 385px;
+        width: 700px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -274,5 +278,9 @@ h5 {
     }
     .apple-store-svg{
         padding:29px 20px;
+    }
+    .vid {
+        height: 500px;
+        width: 900px;
     }
 }
